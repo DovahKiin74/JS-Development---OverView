@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="city.css">
+</head>
+<body>
+  <header>
+    <nav class="centered-navbar">
+      <div class="navbar-left">
+        <a href="#" class="logo">
+          <i class='bx bxs-color' ></i> Color Palette
+        </a>
+    </div>
+    <ul class="navbar-center">
+        <li>
+          <a href="#" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a class="nav-links click">About <i class='bx bxs-right-arrow' ></i></a>
+          <ol class="show">
+            <li>
+                <a class="nav-links" href="#"><i class='bx bx-category'></i>
+                  Our Team
+                  <p>
+                    Wea re a dedicated team of developers, designers and graphic artists, crafting digital experiences that inspires and engage.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bx-user-voice' ></i>
+                  Testimonials
+                  <p>
+                    Discover the voices of those who have entrusted us with their projects and witnessed the excellence of our services.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bxs-award' ></i>
+                  Awards
+                  <p>
+                    Our commitment to excellence has been recognized with prestigious awards that celebrate our dedication to innovation and quality.
+                  </p>
+                </a>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <a class="nav-links click">
+            Services
+            <i class='bx bxs-right-arrow'></i>
+          </a>
+          <ol class="show">
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bx-git-commit'></i>
+                  Development
+                  <p>
+                    Our web developers are the architects behind functional and dynamic websites, bringing your digital vision to life.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bx-code-alt' ></i>
+                  Designing
+                  <p>
+                    Designers on our team are artists who infuse creativity and aesthetics into every project, making ideas visually captivating.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bxs-color' ></i>
+                  Graphic Designers
+                  <p>
+                    Masters of visual communication, our graphic designers breathe life into your brand with striking and memorable designs.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bxs-shapes'></i>
+                  Consultation
+                  <p>
+                    With a wealth of knowledge and experience, our consultants provide tailored solutions to drive success and growth.
+                  </p>
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" href="#">
+                  <i class='bx bxs-video-recording'></i>
+                  Marketing
+                  <p>
+                    Our marketing professionals are the architects of brand visibility, driving engagement and results through creative strategies
+                  </p>
+                </a>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#" class="nav-links">Contact</a></li>
+    </ul>
+    <div class="navbar-right">
+        <a href="#" class="signin-button">Sign In</a>
+    </div>
+  </nav>
+</header>
+<section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Color Palette</h1>
+      <p>Explore a world of beautiful colors for your design projects.</p>
+      <a href="#palette" class="cta-button">Explore Palette</a>
+    </div>
+    <img src="images/paletteBG.png" alt="Color Palette Image" class="full-width-image">
+</section>
+<div class="color-palette-main">
+  <section id="palette" class="color-palette">
+    <h1 class="heading">Color Palette</h1>
+    <p>Explore our beautiful color palette and enhance your design projects with a variety of stunning colors.</p>
+    <div class="color-swatch">
+        <div class="color" style="background-color: #E51E57;"></div>
+        <p>#FF5733</p>
+    </div>
+    <div class="color-swatch">
+        <div class="color" style="background-color: #3498db;"></div>
+        <p>#3498db</p>
+    </div>
+    <div class="color-swatch">
+        <div class="color" style="background-color: #27ae60;"></div>
+        <p>#27ae60</p>
+    </div>
+    <div class="color-line"></div>
+    <!-- Add more color swatches as needed -->
+    <div class="palette-info">
+        <h3>Using Our Palette</h3>
+        <p>Our color palette is carefully curated to provide you with a range of colors suitable for various design needs. You can easily copy the hex or RGB values to use in your projects. Feel free to experiment and get creative!</p>
+    </div>
+  </section>
+  <img src="images/wave.svg" class="shape-divider">
+</div>
+<section id="examples" class="design-examples">
+  <h1 class="heading-light">Designs</h1>
+  <div class="design-card">
+    <div class="palette-box monochromatic">
+      <div class="palette-content">    
+        <h2>Monochromatic Palette</h2>
+      <p> A monochromatic color palette is a color scheme that is based on variations of a single color. It includes different shades, tints, and tones of that color, creating a harmonious and unified look.</p>
+      <button type="button" class="cta-button tryBtn">Try Now</button>
+      </div>
+      <div class="palette-img">
+        <img src="images/one.png" alt="">
+      </div>
+    </div> 
+  <div class="palette-box analogous">
+    <div class="palette-img">
+      <img src="images/two.png" alt="">
+    </div>
+    <div class="palette-content">
+    <h2>Analogous Palette</h2>
+      <p>An analogous color palette is a harmonious color scheme that consists of colors that are adjacent to each other on the color wheel. These colors share a similar undertone or hue, which creates a sense of unity and cohesion in a design.</p>
+      <button type="button" class="cta-button tryBtn">Try Now</button>
+    </div>
+</div>
+  <div class="palette-box complementary">
+    <div class="palette-content">
+    <h2>Complementary Palette</h2>
+      <p>A complementary color palette is a color scheme that consists of two colors that are opposite to each other on the color wheel. These colors provide the highest level of contrast and harmony when used together.</p>
+      <button type="button" class="cta-button tryBtn">Try Now</button>
+  </div>
+  <div class="palette-img">
+    <img src="images/three.png" alt="">
+  </div>
+</div>
+<div class="curved-line"></div>
+  <div class="palette-box triadic">
+    <div class="palette-img">
+      <img src="images/four.png" alt="">
+    </div>
+    <div class="palette-content">
+    <h2>Triadic Palette</h2>
+      <p>A triadic color palette is a color scheme that consists of three colors that are evenly spaced around the color wheel, forming an equilateral triangle. This results in a balanced and dynamic combination of colors.</p>
+      <button type="button" class="cta-button tryBtn">Try Now</button>
+  </div>
+  </div>
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+  <span class="blob blob-4"></span>
+</div>
+</section>
+<section id="features">
+  <img src="images/wave.svg" class="shape-divider-reverse">
+  <div class="feature">
+    <div class="heading">Features</div>
+    <div class="feature-box">
+      <div class="feature-img">
+        <img src="images/featured.png">
+      </div>
+      <div class="feature-content">
+        <h2>Our Featured Products</h2>
+        <p>
+          <li>
+            User accounts serve several purposes, including personalization, access control, and interaction with the website or application.
+          </li>
+          <li>
+            Users can save preferences, access personalized content, and engage with the platform in a more tailored way.
+          </li>
+        </p>
+      </div>
+    </div>
+    <div class="feature-box">
+      <div class="featured-box">
+        <div class="feature-content">
+          <img src="images/palette.svg">
+          <h2>Trending Colors</h2>
+          <p>
+            <li>
+              User accounts serve several purposes, including personalization, access control, and interaction with the website or application.
+            </li>
+            <li>
+              Users can save preferences, access personalized content, and engage with the platform in a more tailored way.
+            </li>
+          </p>
+        </div>
+      </div>
+      <div class="featured-box">
+        <div class="feature-content">
+          <img src="images/imageExtraction.svg">
+           <h2>Image Color Extraction</h2>
+          <p>
+            <li>
+              User accounts serve several purposes, including personalization, access control, and interaction with the website or application.
+            </li>
+            <li>
+              Users can save preferences, access personalized content, and engage with the platform in a more tailored way.
+            </li>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="feature-box">
+      <div class="featured-box">
+        <div class="feature-content">
+          <img src="images/community.svg">
+          <h2>Community and Sharing</h2>
+          <p>
+            <li>
+              User accounts serve several purposes, including personalization, access control, and interaction with the website or application.
+            </li>
+            <li>
+              Users can save preferences, access personalized content, and engage with the platform in a more tailored way.
+            </li>
+          </p>
+        </div>
+      </div>
+      <div class="featured-box">
+        <div class="feature-content">
+          <img src="images/colorPicker.svg">
+          <h2>Color Picker</h2>
+          <p>
+            <li>
+              User accounts serve several purposes, including personalization, access control, and interaction with the website or application.
+            </li>
+            <li>
+              Users can save preferences, access personalized content, and engage with the platform in a more tailored way.
+            </li>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="contact-section">
+  <!-- <div class="tilted-bg"></div> -->
+  <div class="curved-bg"></div>
+  <h1 class="heading">Contact Us</h1>
+  <p>If you have any questions or want to get in touch, feel free to send us a message.</p>
+  <div class="contact-form">
+      <form>
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+      </form>
+  </div>
+</section>
+<section id="FAQs">
+  <div class="faqs">
+    <h1 class="heading-light">Frequently Asked Questions</h1>
+    <div class="faq-item">
+      <div class="faq-question">
+        <p>
+          How can I create a color palette?
+        </p>
+        <i class='bx bxs-right-arrow-circle'></i>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Start by using our intuitive color palette generator, which offers a user-friendly interface.
+          Select a base color that inspires your palette or explore our predefined color schemes.
+          Experiment with different shades and harmonious combinations to create a unique palette.
+          Utilize tools like color wheels and hex codes to precisely define your chosen colors.
+          Save your final color palette for future design projects and share it with ease
+        </p>
+      </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+          <p>
+            Is your color picker tool easy to use?
+          </p>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Yes, our color picker tool is user-friendly and allows you to select colors using various methods, including a color wheel and hex codes.
+            Our color picker is exceptionally intuitive, offering a seamless experience for selecting colors through methods like the color wheel and hex codes.
+            You'll find handy guides and tooltips to assist you in using the color picker effectively, ensuring a smooth and enjoyable experience.
+            We provide comprehensive support to assist users with any queries, ensuring that your color picking experience remains hassle-free.
+          </p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">
+          <p>
+            How do I save and export color palettes?
+          </p>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        <div class="faq-answer">
+          <p>
+            To save and export your color palettes, simply create a user account on our platform, and you'll gain access to these convenient features.
+            We offer various export formats, making it easy to integrate your color palettes into different design tools and software.
+            With an account, you can organize and manage your saved color palettes, keeping your projects well-structured and accessible.
+          </p>
+        </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <p>
+          Can I extract colors from images?
+        </p>
+        <i class='bx bxs-right-arrow-circle'></i>
+      </div>
+      <div class="faq-answer">
+        <p>
+          Yes, you can extract colors from images using our image color extraction feature, making it effortless to create palettes inspired by your visuals.
+          Our tool analyzes the uploaded images and automatically generates color palettes based on the prominent colors within the image.
+          You have the flexibility to adjust and fine-tune the extracted colors to match your design preferences, ensuring a customized palette.
+          Extracting colors from images sparks creativity, allowing you to translate the essence of your visuals into vibrant and harmonious color palettes for your design projects.
+        </p>
+      </div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">
+          <p>
+            Do you provide design templates for using color palettes?
+          </p>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Yes, we provide a range of design templates that allow you to preview and apply your selected color palettes to various design projects.
+            Our platform offers easy access to design templates, ensuring that you can visualize your color palettes in action across websites, graphics, and branding materials.
+            Our design templates are customizable, enabling you to adapt them to your brand's unique style and preferences.
+            Our design templates simplify the design process by allowing you to visualize and experiment with your color palettes, making it easier to achieve a cohesive and stunning final result.
+          </p>
+        </div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">
+          <p>
+            Is there a mobile app available for creating color palettes?
+          </p>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Currently, we offer a responsive web-based tool that seamlessly works on both desktop and mobile devices.
+            Yes, you can easily access and use our color palette generator on your mobile device's browser, without the need to download a separate app.
+            Our mobile-optimized platform ensures a user-friendly and smooth experience for creating color palettes while on the go.
+            Our mobile access enables you to capture inspiration and create color palettes wherever you are, empowering your creativity on the fly.
+          </p>
+        </div>
+    </div>
+    
+    <div class="faq-item">
+        <div class="faq-question">
+          <p>
+            How can I share my color palettes with others?
+          </p>
+          <i class='bx bxs-right-arrow-circle'></i>
+        </div>
+        <div class="faq-answer">
+          <p>
+            Once you've created an account, you can effortlessly share your color palettes with others by generating a unique link.
+            Sharing your color palettes with a unique link makes it simple to collaborate and receive feedback from team members, clients, or fellow designers.
+            You can share your color palettes with as many people as you like, making it easy to showcase your designs to a wide audience.
+            Your shared palettes are accessible only to those with the unique link, ensuring you have control over who can view and use them.
+          </p>
+        </div>
+    </div>
+    <div class="faqimg">
+      <img src="images/penpencil.png" alt="">
+    </div>
+  </div>
+</section>
+<section id="purchase" class="purchase-section">
+  <h1 class="heading-light">Pricing</h1>
+  <div class="purchase-box basic">
+      <h3>Basic</h3>
+      <p>Get access to our color palette.</p>
+      <span class="price">$9<span class="per-month">/month</span></span>
+      <div class="details">
+        <ul>
+          <li>
+            10 Color Swatches
+          </li>
+          <li>
+            Free Domain Included
+          </li>
+          <li>
+            Access for 1 Year
+          </li>
+          <li>
+            Email Support
+          </li>
+        </ul>
+    </div>
+      <a href="#" class="cta-button">Get Started</a>
+  </div>
+  <div class="purchase-box standard">
+      <h3>Standard</h3>
+      <p>Unlock premium color swatches and more.</p>
+      <span class="price">$19<span class="per-month">/month</span></span>
+      <div class="details">
+        <ul>
+          <li>
+            25 Color Swatches
+          </li>
+          <li>
+            Free Domain Included
+          </li>
+          <li>
+            Access for 2 Year
+          </li>
+          <li>
+            Email Support
+          </li>
+        </ul>
+    </div>
+      <a href="#" class="cta-button">Get Started</a>
+  </div>
+  <div class="purchase-box premium">
+      <h3>Premium</h3>
+      <p>Full access to our color library and design resources.</p>
+      <span class="price">$39<span class="per-month">/month</span></span>
+      <div class="details">
+        <ul>
+          <li>
+            Unlimited Color Swatches
+          </li>
+          <li>
+            Free Domain Included
+          </li>
+          <li>
+            Access for 3 Year
+          </li>
+          <li>
+            Email Support
+          </li>
+        </ul>
+    </div>
+      <a href="#" class="cta-button">Get Started</a>
+  </div>
+</section>
+<footer>
+    <p>&copy; 2023 Your Color Palette</p>
+</footer>
+
+
+<script src="javaLink.js"></script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+[
+    {
+        "gname": "Naruto 1",
+        "gdescrip": "Available on consoles(PS3, PS4, PS5, and  Xbox).",
+        "gimgsrc": "images\/games\/naruto1.jpg",
+        "gbtnlabel": "Download Now"
+    },
+    {
+        "gname": "Demon Slayer 1",
+        "gdescrip": "Available on Windows, MacOS and Android as well.",
+        "gimgsrc": "images\/games\/DemonSlayer1.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Demon Slayer 2",
+        "gdescrip": "Available on Windows, MacOS and Android as well.",
+        "gimgsrc": "images\/games\/DemonSlayer2.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Naruto Baryon Mode",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/Naruto4.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Kakashi of The Sharingan",
+        "gdescrip": "Available on Android.",
+        "gimgsrc": "images\/games\/KakashiUltimate.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "One Piece Ultra",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/OnPiece1.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Jujutsu Kaisen 1",
+        "gdescrip": "Available on Windows, MacOS and Android as well.",
+        "gimgsrc": "images\/games\/JJKSeason1.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "One Piece 5 Gear",
+        "gdescrip": "Available on Windows, MacOS and Android as well.",
+        "gimgsrc": "images\/games\/OnePiece1.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Naruto Shippuden 2",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/Naruto2.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Dragon Ball Z Ultra",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/DBZUltra.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Clash of Clans",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/COC.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Clash Royale",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/ClashRoyale.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Boom Beach",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/BoomBeach.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Clash of Kings",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/ClashOfKings.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Hunter of X",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/HunterX.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Talking Tom",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/TalkingCat.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Temple Run",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/TempleRun.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Subway Surfers",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/SubwaySurfers.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "God Of Wars",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/GodOfWars.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Playrium Play",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/PlayriumPlay.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Mutant Gladiators",
+        "gdescrip": "Only on Android.",
+        "gimgsrc": "images\/games\/MutantGG.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Assassins Creed BrotherHood",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/AssassinsCreed.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Assassins Creed Mirage",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/AssassinsCreedMirage.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Assassins Creed Odyssey",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/AssassinsCreedOdyssey.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Assassins Creed Origin",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/AssassinsCreedOrigin.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "FarCry4",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/FarCry4.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "God Of Wars Ragnarok",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/GodOfWarsRagnarok.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Captain America\/ Hydra",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/Hydra.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Prince Of Persia",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/PrinceOfPersia.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Shang Chi",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/ShangChi.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "SpiderMan Miles Morales",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/SpiderManMilesMorales.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Crysis 2",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/Crysis2.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "The Witcher",
+        "gdescrip": "Available only on PS5 and consoles.",
+        "gimgsrc": "images\/games\/TheWitcher.jpg",
+        "gbtnlabel": "Buy Now."
+    },
+    {
+        "gname": "Stronghold 3",
+        "gdescrip": "Windows Game free to play.",
+        "gimgsrc": "images\/games\/Stronghold3.jpg",
+        "gbtnlabel": "Download Now."
+    },
+    {
+        "gname": "Naraka: Bladepoint",
+        "gdescrip": "Only on Windows.",
+        "gimgsrc": "images\/games\/Naraka.jpg",
+        "gbtnlabel": "Download Now."
+    }
+]

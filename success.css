@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;}
+.success-message{height: auto;padding: 20px 0;width: 100%;background: #007450;color: #fff;font-size: 18px;font-weight: 700;align-items: center;text-align: center;}
+.error-message{height: auto;padding: 20px 0;width: 100%;background: #f93247;color: #fff;font-size: 18px;font-weight: 700;align-items: center;text-align: center;}
+body{background: #D9DADF;}
+.data-container{display: flex;position: relative;width: calc(100% - 20%);height: auto;background: #D9DADF;color: #000;margin: 0 10%;}
+.game-card{display: flex;position: relative;background: #161736;color: #fff;width: 100%;height: 80vh;padding: 40px 60px;margin: 20px 100px;align-items:center;border-radius: 16px;box-shadow: 0 0 10px #000;border: none;}.game-title-img{height: 800px;width: calc(50% - 30px);background: transparent;padding: 0 40px;}
+.game-title-img img{height: 100%;width: 100%; border-radius: 16px;}
+.game-description-content{height: auto;width: calc(50% - 30px);display: block;text-align: left;}
+.gameName{font-size: 36px;color: #4c6196;padding: 10px 0;}.gameDescrip{font-size: 18px;padding: 10px 0;user-select: none;}
+.labelBtn{font-weight: 500;width: 180px;padding: 5px 10px;background: #3a4f88;border: none;color: #fff;font-size: 13px;cursor: pointer;transition: all 0.4s ease;margin: 10px 0;border-radius: 5px;height: 35px;}.labelBtn:hover{background: #4c6196;}
+#redirectButton{background: #007450;position: absolute;right: 0;bottom: 0;border: none;border-radius: 10px;padding: 10px;color: #fff;border-bottom-left-radius: 0;border-top-right-radius: 0;cursor: pointer;font-size: 24px;}
